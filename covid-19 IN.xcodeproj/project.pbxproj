@@ -16,6 +16,7 @@
 		2E1151B4242A16DA0040F93C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1151B2242A16DA0040F93C /* LaunchScreen.storyboard */; };
 		2E13A3D7242A38160037D43C /* Pods_covid_19_IN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA31067FA972393013544310 /* Pods_covid_19_IN.framework */; };
 		2E13A3D8242A38160037D43C /* Pods_covid_19_IN.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA31067FA972393013544310 /* Pods_covid_19_IN.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2E13A3DB242CB47A0037D43C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E13A3DA242CB47A0037D43C /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,7 @@
 		2E1151B0242A16DA0040F93C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E1151B3242A16DA0040F93C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E1151B5242A16DA0040F93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E13A3DA242CB47A0037D43C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		E9987FE3FC1E9369EDB9CCF0 /* Pods-covid-19 IN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covid-19 IN.release.xcconfig"; path = "Target Support Files/Pods-covid-19 IN/Pods-covid-19 IN.release.xcconfig"; sourceTree = "<group>"; };
 		EFD02057C6CA2E59A4A1A53E /* Pods-covid-19 IN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covid-19 IN.debug.xcconfig"; path = "Target Support Files/Pods-covid-19 IN/Pods-covid-19 IN.debug.xcconfig"; sourceTree = "<group>"; };
 		FA31067FA972393013544310 /* Pods_covid_19_IN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_covid_19_IN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +93,7 @@
 				2E1151A4242A16D10040F93C /* AppDelegate.swift */,
 				2E1151A6242A16D10040F93C /* SceneDelegate.swift */,
 				2E1151A8242A16D10040F93C /* ViewController.swift */,
+				2E13A3DA242CB47A0037D43C /* LocationManager.swift */,
 				2E1151AA242A16D10040F93C /* Main.storyboard */,
 				2E1151B0242A16DA0040F93C /* Assets.xcassets */,
 				2E1151B2242A16DA0040F93C /* LaunchScreen.storyboard */,
@@ -227,6 +230,7 @@
 			files = (
 				2E1151AF242A16D10040F93C /* covid_19_IN.xcdatamodeld in Sources */,
 				2E1151A9242A16D10040F93C /* ViewController.swift in Sources */,
+				2E13A3DB242CB47A0037D43C /* LocationManager.swift in Sources */,
 				2E1151A5242A16D10040F93C /* AppDelegate.swift in Sources */,
 				2E1151A7242A16D10040F93C /* SceneDelegate.swift in Sources */,
 			);
