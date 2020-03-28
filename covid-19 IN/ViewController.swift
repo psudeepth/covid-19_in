@@ -51,7 +51,8 @@ class ViewController: UIViewController {
                     
                     // Getting state wise data and adding it to dictionary
                     let tables: [Element] = try doc.select("tbody").array()
-                    let tr = try tables[7].getElementsByTag("tr")
+                    
+                    let tr = try tables[(tables.count - 1)].getElementsByTag("tr")
                     for eachTR in tr{
                         let td = try eachTR.getElementsByTag("td")
                         let checkEntry: String = try td.text().components(separatedBy: " ")[0]
